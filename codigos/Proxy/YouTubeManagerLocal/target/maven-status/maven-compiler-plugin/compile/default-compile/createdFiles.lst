@@ -1,0 +1,9 @@
+negocio/Subtitle.class
+persistencia/ConexaoPostgreSQL.class
+apresentacao/MainProxy.class
+negocio/IYoutube.class
+negocio/Video.class
+persistencia/VideoDAO.class
+apresentacao/Main.class
+negocio/YoutubeProxy.class
+negocio/Youtube.class

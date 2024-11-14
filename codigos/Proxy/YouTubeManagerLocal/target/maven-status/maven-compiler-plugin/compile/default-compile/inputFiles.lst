@@ -1,0 +1,9 @@
+/home/iapereira/YouTubeManagerLocal/src/main/java/negocio/Youtube.java
+/home/iapereira/YouTubeManagerLocal/src/main/java/negocio/YoutubeProxy.java
+/home/iapereira/YouTubeManagerLocal/src/main/java/negocio/Subtitle.java
+/home/iapereira/YouTubeManagerLocal/src/main/java/negocio/Video.java
+/home/iapereira/YouTubeManagerLocal/src/main/java/persistencia/VideoDAO.java
+/home/iapereira/YouTubeManagerLocal/src/main/java/apresentacao/MainProxy.java
+/home/iapereira/YouTubeManagerLocal/src/main/java/apresentacao/Main.java
+/home/iapereira/YouTubeManagerLocal/src/main/java/negocio/IYoutube.java
+/home/iapereira/YouTubeManagerLocal/src/main/java/persistencia/ConexaoPostgreSQL.java
