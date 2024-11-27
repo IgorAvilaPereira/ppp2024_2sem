@@ -4,6 +4,7 @@
 
 package apresentacao;
 
+import negocio.Configuracao;
 import negocio.Pizza;
 import negocio.Pizza;
 import negocio.Pizza;
@@ -22,6 +23,18 @@ public class Main {
         
 //        Pizza pizzaB = new PizzaBuilder().tamanho(10).queijo(true).build();
        System.out.println(p.isBacon());
+       
+       
+       Configuracao conf = Configuracao.getInstance();
+       conf.setIdioma("pt-br");
+       
+       Configuracao conf2 = Configuracao.getInstance();
+       conf.setUsername("iapereira");
+       
+        System.out.println(conf2.getIdioma() + ":"+conf2.getUsername());
+    
+        System.out.println(conf.hashCode());
+        System.out.println(conf2.hashCode());
     }
     
 }
