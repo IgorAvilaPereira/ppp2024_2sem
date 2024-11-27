@@ -21,7 +21,7 @@ public class Main {
 //        Pizza pizza = new Pizza(10, true, false, false, true);
         
 //        Pizza pizzaB = new PizzaBuilder().tamanho(10).queijo(true).build();
-//        System.out.println(p);
+       System.out.println(p.isBacon());
     }
     
 }
