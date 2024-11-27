@@ -14,7 +14,7 @@ import negocio.PizzaBuilder;
 public class Main {
 
     public static void main(String[] args) {
-        Pizza p = new PizzaBuilder().queijo(true).bacon(false).build();
+        Pizza p = new PizzaBuilder().tamanho(10).build();
         System.out.println(p);
     }
 }

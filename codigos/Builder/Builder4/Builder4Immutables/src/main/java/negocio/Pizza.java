@@ -20,6 +20,10 @@ public class Pizza {
     private boolean cebola;
 
     @Builder.Constructor
+    public Pizza(int tamanho){
+        this.tamanho = tamanho;
+    }
+    @Builder.Constructor
     public Pizza(int tamanho, boolean queijo, boolean tomate, boolean bacon, boolean cebola) {
         this.tamanho = tamanho;
         this.queijo = queijo;
